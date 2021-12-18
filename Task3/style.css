@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(20, 20, 20);
+    height: 400px;
+    width: 300px;
+    margin-top: 15%;
+    border-radius: 5px;
+    box-shadow: 2px 4px 6px rgb(0, 0, 0);
+}
+
+.image {
+    align-items: center;
+}
+
+.pass {
+    display: flex;
+    flex-direction: column;
+}
+
+.username input,
+.pass input {
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    text-align: left;
+    outline: none;
+}
+
+.submit_btn {
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-align: center;
+    background-color: rgb(113, 190, 88);
+    margin-top: 15px;
+}
+
+.submit_btn:hover {
+    background-color: rgba(113, 190, 88, 0.596);
+    color: rgb(14, 14, 14);
+    cursor: pointer;
+}
+
+.forgotpw {
+
+    color: rgb(153,152,152);
+    text-align: center;
+}
